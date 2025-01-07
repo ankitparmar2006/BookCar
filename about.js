@@ -1,7 +1,7 @@
 
 //<!--====================  about  cording start from here   ===================== -->
 
-// <!--==================== about hide div  cording start from here   ===================== -->
+// <!--==================== about hide div  cording start from here  ======================= -->
 
 let aboutbtn=document.querySelector(".about-btn");
 
@@ -24,7 +24,7 @@ aboutbtn.addEventListener("click" , function (){
 
 
 
-// <!--==================== about  hide div cording end from here   ===================== -->
+// <!--==================== about  hide div cording end from here  ===================== -->
 
 
 
