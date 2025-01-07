@@ -1,27 +1,11 @@
 {
-    "car":[
-
-        {
-         "carname": "Supra",
-         "carprice": 98000,
-         "carcolor": "Black",
-         "carbrand": "Toyota"
-        },
-
-        {
-            "carname": "Swift",
-            "carprice": 99000,
-            "carcolor": "silver",
-            "carbrand": "Maruti Suzuki"
-           },
-
-           {
-            "carname": "Thar",
-            "carprice": 99000,
-            "carcolor": "Red",
-            "carbrand": "Mahindra" 
-           }
-
-        
-    ]
+  "car": [
+    {
+      "carname": "Supra",
+      "carcolor": "Black",
+      "carbrand": "Toyota",
+      "carprice": 98000,
+      "id": "4e5d"
+    }
+  ]
 }
