@@ -1,0 +1,1137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* <!--====================  navbar cording start from here   ===================== --> */
+
+
+
+#navbar {
+width: 100%;
+height: 60px;
+background-color: orange;
+position: fixed;
+z-index: 99;
+
+}
+
+#navbar i {
+  font-size: 25px;
+  color: black;
+
+}
+.cart1 {
+  font-size: 10px;
+  font-weight: bolder;
+  color: red;
+  font-family: Georgia;
+}
+.cart-button {
+  background-color: orange;
+  border: none;
+}
+
+#navbar nav ul li {
+    list-style: none;
+}
+
+#navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#navbar nav ul li a:hover{
+    color: red;
+ }
+
+#navbar nav ul {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#navbar nav ul h1 {
+    
+font-family:  sans-serif;
+margin-right: 200px;
+font-size: 30px;
+margin-top: -10px;
+
+}
+
+
+#navbar nav ul h1 span {
+color: red;
+font-size: 20px;
+}
+
+#navbar nav ul .signup {
+    margin-left: 30px;
+background-color: blue;
+color: whitesmoke;
+width: 60px;
+height: 25px;
+border-radius: 10px;
+
+}
+
+
+#navbar nav .nav-img {
+    width: 110px;
+    margin-top: -20px;
+    margin-left: -120px;
+}
+
+.add-cart-button {
+  width: 100px;
+  height: 35px;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  font-size: 10px;  
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.add-cart-button:hover {
+background-color: orangered;
+color: black;
+}
+.remove-cart-button {
+width: 100px;
+height: 35px;
+background-color: blue;
+border-radius: 10px;
+color: white;
+font-weight: bolder;
+font-size: 10px;  
+}
+.remove-cart-button:hover {
+  background-color: orangered;
+  color: black;
+  }
+
+/* <!--====================  home index cording start from here   ===================== --> */
+
+#home {
+    width: 100%;
+    height: 750px;
+}
+
+#home img {
+width: 100%;
+position: absolute;
+margin-top: 50px;
+}
+#home .home-text {
+    position: relative;
+    padding-top: 15%;
+    margin-left: 100px;
+}
+
+#home .home-text  h2 {
+
+font-size: 40px;
+}
+
+#home .home-text  h2 span { 
+    color: red;
+}
+
+
+#home .home-text  h3 {
+margin-top: 20px;
+margin-left: 90px;
+}
+
+#home .home-text  h3 span { 
+    color: orangered;
+
+}
+
+
+
+#home .home-text  p {
+    margin-top: 20px;
+    margin-left: 150px;
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #home .home-text h4 {
+
+margin-top: 60px;
+margin-left: 40px;
+
+    }
+    #home .home-text i {
+    font-size: 14px;
+        color: orangered;
+    }
+
+
+#booking {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#booking .book-div {
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+}
+
+
+#booking .book-div1 {
+  border: 2px solid black;
+  height: 500px;
+  width: 450px;
+  display: grid;
+  justify-content: center;
+  padding: 30px;
+  background-color: blue;
+color: white;
+}
+#booking .book-div1 input {
+  margin-top: -25px;
+  height: 30px;
+  margin-left: -20px;
+}
+ 
+
+#booking .book-div2 {
+  border: 2px solid black;
+  height: 400px;
+  width: 800px;
+  margin-top: 70px;
+}
+ 
+#booking .book-div2 img {
+  width: 100%;
+}
+
+/* ----------------------------------------------------------------- */
+
+ 
+/* <!--====================  home  cording end from here   ===================== --> */
+
+
+
+/* <!--====================  we offer  cording start from here   ===================== --> */
+#offer {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+#offer h4 {
+margin-left: 43%;
+color: orangered;
+}
+
+#offer h2 {
+    margin-left: 37%;
+    font-size: 35px;
+    margin-top: 20px;
+    }
+    
+/* .swiper {
+    width: 100%;
+    height: 100%;
+  } */
+
+  .img-1 {
+    width: 100%;
+    height: 60px;
+  }
+
+  .swiper-box1 {
+    width: 350px;
+    height: 370px;
+    border: 2px solid red;
+    background-color: rgba(255, 166, 0, 0.532);
+    margin-top: 30px;
+  }
+
+.swiper-text {
+margin-top: 20px;
+}
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  
+  .swiper-text {
+    position: absolute;
+  }
+
+  .swiper-text h3 {
+    margin-left: 65px;
+  }
+
+  .swiper-text p {
+    color: white;
+  }
+  .swiper-text span {
+    color: orangered;
+  }
+ 
+/* <!--====================  we offer cording start from here   ===================== --> */
+
+
+/* <!--====================  we offer cording start from here   ===================== --> */
+
+
+/* <!--====================  signup cording start from here   === ================== --> */
+#signup {
+  width: 100%;
+  height: auto;
+  padding-top: 110px;
+  display: grid;
+  justify-content: space-around;
+  color: white;
+  font-weight: bolder;
+  font-size: 19px;
+
+}
+
+.signup-form {
+  width: 420px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+
+}
+#signup .signup-form .log-p {
+margin-left: 80px;
+padding-bottom: 20px;}
+
+input {
+margin-left: 30px;
+margin-top: 20px;
+height: 30px;
+}
+
+input::placeholder{
+  color: orange;
+}
+
+
+.submit {
+  margin-left: 120px;
+  width: 90px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: blue;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: white;
+}
+
+.submit:hover{
+  background-color: orangered;
+  color: black;
+
+}
+
+
+/* <!--====================  signup cording end from here   ===================== --> */
+
+
+
+
+/* <!--====================  login cording start from here   ===================== --> */
+#login {
+  width: 100%;
+  height: 100vh;
+  padding-top: 110px;
+  display: grid;
+  justify-content: space-around;
+  background-image: url(./img/log3.jpg);
+background-size: cover;
+color: white;
+font-size: 18px;
+font-weight: bolder;
+}
+
+.login-form{
+   
+    border: 2px solid red;
+    width: 450px;
+    height:400px;
+    background-color: rgba(0, 0, 0, 0.582);
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 90px;
+  }
+  
+
+
+input {
+margin-left: 30px;
+}
+
+input::placeholder{
+  color: orange;
+}
+
+
+.submit {
+  margin-left: 120px;
+  width: 130px;
+  height: 45px;
+  margin-top: 20px;
+  background-color: blue;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: white;
+}
+
+.submit:hover{
+  background-color: orangered;
+  color: black;
+
+}
+
+
+/* <!--====================  login cording end from here   ===================== --> */
+
+
+
+/* //<!--====================  profile  cording start from here   ===================== --> */
+
+#profile {
+  width: 100%;
+  height: 100vh;
+  padding-top: 110px;
+  background-image: url(./img/log2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  background-position: right;
+}
+
+#profile .profile-inf {
+  justify-content: center;
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.466);
+  width: 400px;
+  margin-left: 500px;
+  border-radius: 10px;
+  padding: 30px;
+height: 450px;
+}
+
+
+.submit-logout {
+  margin-left: 50px;
+  width: 130px;
+  height: 45px;
+  margin-top: 20px;
+  background-color: blue;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: white;
+}
+
+.submit-logout:hover{
+  background-color: orangered;
+  color: black;
+
+}
+
+
+
+/* ///<!--==================== profile  cording end from here   ===================== --> */
+
+
+/* <!--==================== about cording start from here   ===================== --> */
+
+#about {
+
+  width: 100%;
+  height: auto;
+  padding-top: 80px
+
+}
+
+#about .about-main {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#about .about-main .about-div1 img{
+width: 100%;
+position: relative;
+margin-top: 90px;
+margin-left: 50px;
+}
+
+#about .about-main .about-div1 {
+  width: 600px;
+}
+
+#about .about-main .about-div2 {
+
+  width: 600px;
+height: auto;
+  background-color: green;
+margin-left: -300px;
+border-radius: 10px;
+color: white;
+}
+
+#about .about-main .about-div2:hover {
+  color: black;
+}
+
+#about .about-main .about-div2 h1 {
+margin-top: 13px;
+margin-left: 200px;
+font-size: 25px;
+}
+
+#about .about-main .about-div2 h2 {
+  margin-top: 15px;
+  margin-left: 240px;
+  font-size: 25px;
+}
+
+#about .about-main .about-div2 .about-text {
+display: grid;
+grid-template-columns: auto auto;
+justify-content: center;
+margin-top: 15px;
+gap: 10px;
+}
+
+#about .about-main .about-div2 .about-text .about-box1 {
+  width: 200px;
+  height: 100px;
+  background-color: orangered;
+  padding: 15px;
+  border-radius: 10px;
+} #about .about-main .about-div2 .about-text .about-box1:hover {
+background-color: transparent;
+border: 1px solid blue;
+}
+
+#about .about-main .about-div2 .about-text .about-box2 {
+  width: 200px;
+  height: 100px;
+  background-color: orangered;
+  padding: 15px;
+  border-radius: 10px;
+  }
+  #about .about-main .about-div2 .about-text .about-box2:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    }
+
+  #about .about-main .about-div2 .about-text .about-box3 {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    padding-left: 60px;
+   }
+   #about .about-main .about-div2 .about-text .about-box3:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    }
+
+    #about .about-main .about-div2 .about-text .about-box4 {
+      width: 200px;
+      height: 100px;
+      background-color: orangered;
+      padding: 15px;
+      border-radius: 10px;
+      }
+      #about .about-main .about-div2 .about-text .about-box4:hover {
+        background-color: transparent;
+        border: 1px solid blue;
+        }
+      #about .about-main .about-div2 .about-text .about-box5 {
+        width: 200px;
+        height: 100px;
+        background-color: green;
+        padding: 15px;
+        border-radius: 10px;
+        }
+        #about .about-main .about-div2 .about-text .about-box5:hover {
+          background-color: transparent;
+          border: 1px solid blue;
+          }
+
+        #about .about-main .about-div2 .about-text .about-box6 {
+          width: 200px;
+          height: 100px;
+          background-color: orangered;
+          padding: 15px;
+          border-radius: 10px;
+          }
+          #about .about-main .about-div2 .about-text .about-box6:hover {
+            background-color: transparent;
+            border: 1px solid blue;
+            }
+
+          #about .about-main .about-div2 .about-text .about-box7 {
+            width: 200px;
+            height: 100px;
+            background-color: orangered;
+            padding: 15px;
+            border-radius: 10px;
+            }
+            #about .about-main .about-div2 .about-text .about-box7:hover {
+              background-color: transparent;
+              border: 1px solid blue;
+              }
+
+            #about .about-main .about-div2 .about-text .about-box8 {
+              width: 200px;
+              height: 100px;
+              background-color: orangered;
+              padding: 15px;
+              border-radius: 10px;
+              }
+              #about .about-main .about-div2 .about-text .about-box8:hover {
+                background-color: transparent;
+                border: 1px solid blue;
+                }
+/* //-------------------------------------------------------------------- */
+#about .about-main .about-div2 .about-span {
+  display: grid;
+  grid-template-columns: auto ;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+                #about .about-main .about-div2 .about-box9 {
+                  width: 300px;
+                  height: 100px;
+                  background-color: orangered;
+                  padding: 15px;
+                  border-radius: 10px;
+                  }
+                  #about .about-main .about-div2  .about-box9:hover {
+                    background-color: transparent;
+                    border: 1px solid blue;
+                    }
+                    #about .about-main .about-div2 .about-box10 {
+                      width: 300px;
+                      height: 100px;
+                      background-color: orangered;
+                      padding: 15px;
+                      border-radius: 10px;
+                      }
+                      #about .about-main .about-div2  .about-box10:hover {
+                        background-color: transparent;
+                        border: 1px solid blue;
+                        }
+
+                        #about .about-main .about-div2  .about-box11 {
+                          width: 300px;
+                          height: 100px;
+                          background-color: orangered;
+                          padding: 15px;
+                          border-radius: 10px;
+                          }
+                          #about .about-main .about-div2  .about-box11:hover {
+                            background-color: transparent;
+                            border: 1px solid blue;
+                            }
+                            #about .about-main .about-div2  .about-box12 {
+                              width: 300px;
+                              height: 100px;
+                              background-color: orangered;
+                              padding: 15px;
+                              border-radius: 10px;
+                              }
+                              #about .about-main .about-div2  .about-box12:hover {
+                                background-color: transparent;
+                                border: 1px solid blue;
+                                }                    
+          /* <!----------------------- about button cording here --------------------- --> */
+
+#about .about-main .about-div2 .about-btn {
+
+  margin-left: 210px;
+  width: 180px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: blue;
+  font-weight: bolder;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+
+
+#about .about-main .about-div2 .about-btn:hover{
+  background-color: orangered;
+  color: black;
+
+}
+  
+/* <!--====================  about cording end from here   ===================== --> */
+
+
+
+
+#footer {
+  width: 100%;
+  height: 400px;
+  background-color: black
+  ;
+}
+
+.footer-div {
+display: grid;
+color: white;
+grid-template-columns: auto auto auto auto;
+}
+
+#footer .footer-div i {
+  font-size: 30px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#footer .footer-div .footer-carbook {
+  margin-left: 40px;
+  margin-top: 40px;
+
+}
+#footer .footer-div span {
+  color: red;
+}
+
+
+#footer .footer-div p {
+  margin-left: 40px;
+  margin-top: 40px;
+
+}
+
+#footer .footer-div h2 {
+  margin-left: -40px;
+  margin-top: 40px;
+}
+
+#footer .footer-div .footer-a a{
+display: grid;
+grid-template-columns: auto;
+gap: 10px;
+margin-top: 30px;
+color: white;
+text-decoration: none;
+}
+/* <!--====================  footer cording end from here   ===================== --> */
+
+
+
+
+/* <!--====================  service cording start from here   ===================== --> */
+
+
+#service {
+  width: 100%;
+  height: 700px;
+  padding-top: 120px;
+}
+
+#service h4 {
+margin-left: 45%;
+color: orangered;
+}
+
+#service h2 {
+  margin-left: 37%;
+  font-size: 35px;
+  margin-top: 20px;
+
+  }
+
+  #service .service-box .service-circle {
+    width: 100px;
+    border: 2px solid red;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+  }
+  #service .service-box .service-circle:hover {
+    border: 2px solid blue;
+    background-color: red;
+
+
+  }
+  #service .service-box .service-circle1 {
+    width: 100px;
+    border: 2px solid blue;
+    height: 100px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+
+  }
+  #service .service-box .service-circle1:hover {
+    border: 2px solid red;
+    background-color: blue;
+
+
+  }
+
+  #service .service-box .service-circle i {
+    font-size: 40px;
+  }
+  #service .service-box .service-circle1 i {
+    font-size: 40px;
+  }
+  #service .service-box {
+    display: grid;
+    justify-content: space-around;
+    margin-top: 50px;
+    grid-template-columns: auto auto auto auto;
+
+  }
+
+  #service .service-text {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+  #service .service-text p {
+margin-top: 20px;
+color: #999999;
+  }  
+  
+  /* <!--====================  service cording end from here   ===================== --> */
+
+    /* <!--====================  responsive work start from here   ===================== --> */
+
+    #bar-ss {
+      display: none;
+    } 
+    .lab{
+      display: none;
+    }
+    
+    
+    
+    @media (max-width:450px) {
+    
+    /* navbar cording start from here   */
+    
+      #navbar nav ul {
+         display: none;
+    }
+    
+    
+    #navbar nav ul li {
+      padding: 20px;
+    }
+      .lab {
+        position: absolute;
+        z-index: 99999999;
+      color: #ccc;
+        display: block;
+        left: 20px;
+      }
+      #bar-ss:checked~#navbar nav ul {
+    display: block;
+    position: absolute;
+    left: 40px;
+    background-color: rgba(0, 0, 0, 0.692);
+    
+       } 
+
+       #navbar {
+        width: 88%;
+        }
+
+        #home img {
+          width: 90%;
+        
+          }
+
+          #booking .book-div2 {
+           display: none;
+          }
+
+          #booking {
+            width: 78%;
+          }
+
+          #home .home-text {
+            position: relative;
+            padding-top: 15%;
+            margin-left: 6px;
+        }
+
+        #home .home-text  h2 {
+
+          font-size: 25px;
+          }
+         
+        
+          #home .home-text  h3 {
+          margin-left: 0px;
+          }
+          #home .home-text  p {
+            margin-left: 0px;
+            }
+            #home .home-text  h4 {
+              display: none;
+            }
+            .video {
+              display: none;
+            }
+
+            #footer {
+              font-size: 4px;
+              width: 89%;
+            }
+
+            #footer .footer-div i {
+              font-size: 10px;
+           
+            }
+         
+ /* // ===============================about responsive work start from here===================================== */
+
+
+ 
+#about .about-main .about-div1 img{
+width: 50%;
+margin-left: 0px;
+}
+
+#about .about-main .about-div1 {
+  display: none;
+}
+
+#about .about-main .about-div2 {
+
+  width: 390px;
+margin-left: 0px;
+
+}
+
+
+#about .about-main .about-div2 h1 {
+margin-left: 80px;
+}
+
+#about .about-main .about-div2 h2 {
+  margin-left: 140px;
+
+}
+
+#about .about-main .about-div2 .about-text {
+gap: 2px;
+}
+
+#about .about-main .about-div2 .about-text .about-box1 {
+  width: 190px;
+  height: 100px;
+  font-size: 13px;
+
+} 
+
+#about .about-main .about-div2 .about-text .about-box2 {
+  width: 190px;
+  height: 100px;
+  font-size: 13px;
+  }
+
+
+  #about .about-main .about-div2 .about-text .about-box3 {
+    width: 190px;
+    height: 100px;
+    font-size: 13px;
+   }
+ 
+
+    #about .about-main .about-div2 .about-text .about-box4 {
+      width: 190px;
+  height: 100px;
+  font-size: 13px;
+      }
+    
+      #about .about-main .about-div2 .about-text .about-box5 {
+        width: 190px;
+  height: 100px;
+  font-size: 13px;
+        }
+    
+
+        #about .about-main .about-div2 .about-text .about-box6 {
+          width: 190px;
+  height: 100px;
+  font-size: 13px;
+          }
+    
+
+          #about .about-main .about-div2 .about-text .about-box7 {
+            width: 190px;
+            height: 100px;
+            font-size: 13px;
+            }
+        
+
+            #about .about-main .about-div2 .about-text .about-box8 {
+              width: 190px;
+  height: 100px;
+  font-size: 13px;
+           
+}
+                           
+          /* <!----------------------- about button cording here --------------------- --> */
+
+#about .about-main .about-div2 .about-btn {
+
+  margin-left: 110px;
+
+}
+
+
+  /* // ===============================about responsive work start from here===================================== */
+
+  
+  #service h4 {
+  margin-left: 30%;
+
+  }
+  
+  #service h2 {
+    margin-left: 18%;
+    font-size: 30px;
+
+    }
+  
+    #service .service-box .service-circle {
+      width: 60px;
+      height: 60px;
+
+    }
+    .ser-res {
+      display: none;
+    }
+   
+    #service .service-box .service-circle1 {
+      width: 60px;
+      height: 60px;
+      display: none;
+
+    }
+ 
+  
+    #service .service-box .service-circle i {
+      font-size: 25px;
+
+    }
+    #service .service-box .service-circle1 i {
+      font-size: 25px;
+      display: none;
+
+    }
+   
+
+  
+    #service .service-text p {
+font-size: 10px;
+    } 
+    #service .service-text h3 {
+      font-size: 10px;
+
+    } 
+    
+    /* <!--====================  service cording end from here   ===================== --> */
+
+
+    
+/* <!--====================  login cording start from here   ===================== --> */
+#login {
+width: 390px;
+}
+
+.login-form{
+   
+    width: 350px;
+}
+
+
+.submit {
+  margin-left: 80px;
+  width: 130px;
+  height: 45px;
+
+}
+
+
+
+
+/* <!--====================  login cording end from here   ===================== --> */
+
+
+
+/* //<!--====================  profile  cording start from here   ===================== --> */
+
+#profile {
+  width: 88%;
+}
+
+#profile .profile-inf {  
+  width: 380px;
+  margin-left: 0px;
+}
+
+
+
+
+/* ///<!--==================== profile  cording end from here   ===================== --> */
+
+
+
+
+      }
+      /* <!--====================  responsive work start end from here   ===================== --> */
+
+
+
+
