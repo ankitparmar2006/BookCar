@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="curd.css">
 </head>
 <body onload="fetchData()">
 
-    <table border="3" cellspacing="20px" cellpadding="15px">
+     <table border="4" cellspacing="20px" cellpadding="15px">
+         
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Color</th>
+            <th>Brand</th>
+            <th>CarDays</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
 
-        <thead>
-
-            <tr>
-
-                <th>Car Name</th>
-                <th>Car Color</th>
-                <th>Car Brand</th>
-                <th>Car Price</th>
-
-            </tr>
-
-        </thead>
-
-        <tbody id="display">
-
-        </tbody>
+      <tbody id="display">
+          
+      </tbody>
 
 
-    </table>
+      </table>
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <form >
 
+        Enter Carname: <input type="text" id="name"> <br> <br>
+        Enter Price: <input type="number" id="price"> <br> <br>
+        Enter per days <select name="" id="days"> <br> <br>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>  <br> <br>
+
+        Enter Color: <input type="text" id="color"> <br> <br>
+        Enter Brand: <input type="text" id="brand"> <br> <br>
+        <input type="submit" onclick="return ins()">
+
+      </form>
+
+
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="curd.js"></script>
-
 </body>
 </html>

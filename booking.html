@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="fetchData()">
+
+     <table border="4" cellspacing="20px" cellpadding="20px">
+         
+    <thead>
+        <tr>
+            <th>PICK-UP LOCATION</th>
+            <th>DROP-OFF LOCATION</th>
+            <th>PIC-UP DATE</th>
+            <th>DROP-OFF DATE</th>
+            <th>PIC-UP TIME</th>
+            <th>Delete</th>
+            <th>UPDATE</th>
+        </tr>
+    </thead>
+
+      <tbody id="display">
+          
+      </tbody>
+
+
+      </table>
+
+      <div id="updateshow">
+
+      </div>
+
+
+    </section>
+
+    <section id="booking" >
+        <div class="book-div">
+            
+            <form action="">
+
+            <div class="book-div1">
+
+
+                 <h2>MAKE YOUR TRIP</h2>
+
+                 <h4>PICK-UP LOCATION</h4>
+                 <input type="text" id="pick-loc">
+
+                 
+                 <h4>DROP-OFF LOCATION</h4>
+                 <input type="text" id="drop-loc">
+
+                 
+                 <h4>PIC-UP DATE</h4>
+                 <input type="date" id="pick-date">
+
+                 
+                 <h4>DROP-OFF DATE</h4>
+                 <input type="date" id="drop-date">
+
+                 
+                 <h4>PIC-UP TIME</h4>
+                 <input type="time" id="pick-time">
+
+                 <input type="submit" onclick="return ins()">
+                </div>
+                
+          <a href="booking.html">Tap to Show Your Bookings</a> 
+            </form>
+
+    
+           
+        </div>
+    </section>
+
+
+
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="booking.js"></script>
+</body>
+</html>

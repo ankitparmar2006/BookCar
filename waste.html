@@ -26,8 +26,7 @@
 
 
 
-<body>
- <!-- <div id="loco"> -->
+<body onload="fetchData()">
 
 <main>
 
@@ -83,29 +82,12 @@
     <!--====================  home  cording start from here   ===================== -->
 
 
-    <section id="home">
-        <img src="./img/home.jpeg" alt="" data-aos="zoom-out-down">
 
-        <div class="home-text">
-            
-        <h2 data-aos="fade-down"
-        data-aos-duration="3000" >Your <span >Journey </span> , Our <span>Cars</span></h2>
-        <h3 data-aos="fade-down-left">Best new <span> Rental Car</span> deals</h3>
+    <section id="booking" style="padding-top: 80px;">
 
-        <p data-aos="fade-up"
-        data-aos-duration="3000">24/7 Support...</p>
-
-        <h4>Easy steps for renting a car  <i class="fa-solid fa-arrow-turn-down"></i></h4> <br> 
-
-        <div class="video" style="width: 20px;" >
-            <video src="homevdo.mp4" controls muted poster="img/car1.jpeg" width="300px"></video>
-        </div>
-        </div>
+     
 
 
-    </section>
-
-    <section id="booking">
         <div class="book-div">
             
             <form action="">
@@ -132,192 +114,69 @@
 
                  
                  <h4>PIC-UP TIME</h4>
-                 <input type="time" id="pic-time">
+                 <input type="time" id="pick-time">
 
-                 <input type="submit" onclick="return ins ()">
+                 <input type="submit" onclick="return ins()">
                 </div>
                 
           <a href="booking.html">Tap to Show Your Bookings</a> 
             </form>
 
-            <div class="book-div2">
-
-               <img src="./img/about.png" alt="" data-aos="fade-right"
-               data-aos-anchor="#example-anchor"
-               data-aos-offset="400"
-               data-aos-duration="3000">
-
-        </div>
+   
 
            
         </div>
+
+                   
+     <table border="4" cellspacing="20px" cellpadding="20px">
+         
+        <thead>
+            <tr>
+                <th>PICK-UP LOCATION</th>
+                <th>DROP-OFF LOCATION</th>
+                <th>PIC-UP DATE</th>
+                <th>DROP-OFF DATE</th>
+                <th>PIC-UP TIME</th>
+                <th>Delete</th>
+                <th>UPDATE</th>
+            </tr>
+        </thead>
+    
+          <tbody id="display">
+              
+          </tbody>
+    
+    
+          </table>
+
+          <div id="updateshow">
+
+          </div>
+
+          <form >
+
+            Enter Carname: <input type="text" id="name"> <br> <br>
+            Enter Price: <input type="number" id="price"> <br> <br>
+            Enter per days <select name="" id="days"> <br> <br>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>  <br> <br>
+    
+            Enter Color: <input type="text" id="color"> <br> <br>
+            Enter Brand: <input type="text" id="brand"> <br> <br>
+            <input type="submit" onclick="return ins()">
+    
+          </form>
+  
+
+
+
     </section>
 
         <!--====================  Book  cording start from here   ===================== -->
           
-<!--====================  about  cording start from here   ===================== -->
-
-<main>
-
-    <section id="about">
-
-
-      <div class="about-main">
-          
-          <div class="about-div1">
-              <img src="./img/about.png" alt=""  data-aos="fade-right"
-              data-aos-anchor="#example-anchor"
-              data-aos-offset="400"
-              data-aos-duration="2000"  >
-          </div>
-
-
-          <div class="about-div2">
-              <h2>ABOUT US</h2>
-              <h1>Welcome to <span>Car</span>book</h1>
-
-              <div class="about-text">
-
-           <div class="about-box1"  data-aos="fade-right"
-           data-aos-anchor="#example-anchor"
-           data-aos-offset="500"
-           data-aos-duration="500">
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-           </div>
-
-           
-           <div class="about-box2" data-aos="fade-left"
-           data-aos-anchor="#example-anchor"
-           data-aos-offset="500"
-           data-aos-duration="500">
-              <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-           </div>
-
-
-           
-           <div class="about-box3" >
-           </div>
-
-           
-           <div class="about-box4"
-             data-aos="fade-right"
-           data-aos-anchor="#example-anchor"
-           data-aos-offset="500"
-           data-aos-duration="500">
-              <p> it would have been rewritten. a thousand times and everything that was left from its origin .</p>
-           </div>
-
-           
-           <div class="about-box5">
-           </div>
-
-           
-           <div class="about-box6" data-aos="fade-left"
-           data-aos-anchor="#example-anchor"
-           data-aos-offset="500"
-           data-aos-duration="500">
-              <p> safe country. A small river named Duden flows by their place and supplies it with the</p>
-           </div>
-
-           <div class="about-box7"  data-aos="fade-up-right">
-              <p>  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-              </p>
-           </div>
-
-           
-           <div class="about-box8" data-aos="fade-up-left" >
-              <p> necessary regelialia. the Little Blind Text should  place and supplies it with the necessary regelialia.</p>
-           </div>
-
-
-          </div>
-           <div class="about-span" >
-              <div style="display: none;" class="about-box9"  data-aos="fade-up-right">
-                  <p>  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                  </p>
-               </div>
-
-               <div style="display: none;" class="about-box10"  data-aos="fade-up-left">
-                  <p>  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                  </p>
-               </div>
-              </p>
-
-              <div style="display: none;" class="about-box11"  data-aos="fade-up-right">
-                  <p>  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                  </p>
-               </div>
-              </p>
-
-              <div style="display: none;" class="about-box12"  data-aos="fade-up-left">
-                  <p>  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-                  </p>
-               </div>
-              </div>
-
-          <button onclick="showoption()" class="about-btn"  data-aos="flip-left" >Read More</button>
-
-          </div>
-
-      </div>
-
-
-    </section>
-</main>
-<!--==================== about  cording end from here   ===================== -->
-
-
-<!--=================== shop start from here   ===================== -->
-
-
-<!--==================== shop section end from here   ===================== -->
-
-
-
-<!--==================== service section start from here   ===================== -->
-<section id="service">
-
-    <h4>SERVICES</h4>
-
-    <h2>Feeatured Vehicles</h2>
-
-
-
-    <div class="service-box">
-        <div class="service-circle1"  data-aos="fade-down-right"> <i class="fa-solid fa-route"></i> </div>
-        <div class="service-circle" data-aos="zoom-in-right"> <i class="fa-solid fa-route"></i> </div>
-        <div class="service-circle1" data-aos="zoom-in-left"> <i class="fa-solid fa-route"></i> </div>
-        <div class="service-circle"  data-aos="fade-down-left"> <i class="fa-solid fa-route"></i> </div>
-
-    </div>
-
-    <div class="service-text"> 
-        <div>
-        <h3>Wedding Ceremony</h3>
-        <p>A small river named    <br> Duden flows by br their  <br> place and supplies it with  <br> the necessary regelialia. </p>
-    </div>
-
-    <div>
-        <h3>Wedding Ceremony</h3>
-        <p>A small river named    <br> Duden flows by br their  <br> place and supplies it with  <br> the necessary regelialia. </p>
-    </div>
-
-    <div class="ser-res">
-        <h3>Wedding Ceremony</h3>
-        <p>A small river named    <br> Duden flows by br their  <br> place and supplies it with  <br> the necessary regelialia. </p>
-    </div>
-
-
-    <div class="ser-res">
-        <h3>Wedding Ceremony</h3>
-        <p>A small river named    <br> Duden flows by br their  <br> place and supplies it with  <br> the necessary regelialia. </p>
-    </div>
-    </div>
-        </section>
-
-<!--==================== service section end from here   ===================== -->
-
-
 
 
 
@@ -434,7 +293,8 @@ AOS.init();
 
 
 <!--====================  this is js  link   ===================== -->
-<script src="about.js"></script>
+<script src="booking.js"></script>
+
 <script src="script.js"></script>
 
 <!--====================  this is js link   ===================== -->
@@ -442,3 +302,202 @@ AOS.init();
 
 </body>
 </html>
+
+
+
+let fetchData= async ()=>{
+
+    try{
+    let url='http://localhost:3000/doctor'
+
+    let res= await fetch(url,{method:"GET"})
+    let data= await res.json()
+    console.log(data);
+
+    let show=document.querySelector("#display")
+
+    data.map((e)=>{
+        
+        show.innerHTML+=`
+        
+        <tr>
+          <td> ${e.name}  </td>
+          <td> ${e.age}  </td>
+          <td> ${e.number}  </td>
+          <td> ${e.date}  </td>
+          <td> ${e.problem}  </td>
+          <td> ${e.price}  </td>      
+           <td onclick="condel('${e.id}')"> Cancel  </td>     
+           <td onclick="formfill('${e.id}')"> Update  </td>     
+        
+        `
+    })
+}
+catch(error){
+    console.log(error);
+    
+}
+
+}
+
+let condel=(id)=>{
+
+    Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!"
+      }).then((result) => {
+        if (result.isConfirmed) {
+            del(id)
+          Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          });
+        }
+      });
+
+}
+
+
+let del=(id)=>{
+
+    let url=http://localhost:3000/doctor/${id}
+
+    fetch(url,{method:"DELETE"})
+
+
+}
+
+
+let ins=()=>{
+    let inpname=document.querySelector("#name").value 
+    let inpage=document.querySelector("#age").value 
+    let inpnum=document.querySelector("#number").value 
+    let inpdate=document.querySelector("#date").value 
+    let inpprob=document.querySelector("#problem").value 
+
+try{
+    let url='http://localhost:3000/doctor'
+      fetch(url,
+        {method:"POST",
+         
+        headers:{
+            "Content-Type":"application/json",
+        },
+
+        body:JSON.stringify(
+            {
+                "name":inpname,
+                "age":inpage,
+                "number":inpnum,
+                "date":inpdate,
+                "problem":inpprob,
+                "price":250
+
+            }
+        )
+        })
+        
+    }
+    catch(error){
+        console.log(error);
+        
+    }
+
+    location.href="crud2.html"
+    return false;
+
+}
+
+
+ let formfill=async(id)=>{
+
+      let url=http://localhost:3000/doctor/${id}
+     let res=await fetch(url)
+     let data=await res.json()
+    
+     let formdata=`
+       Enter Name <input type="text" value="${data.name}" id="updatename"><br>
+       Enter Age <input type="text" value="${data.age}" id="updateage"><br>
+       Enter Number <input type="text" value="${data.number}" id="updatenum"><br>
+       Enter Date <input type="date" value="${data.date}" id="updatedate"><br>
+         <select  id="updateprob">
+                <option value="fever">Fever</option>
+                <option value="cold">Cold</option>
+                <option value="cough">Cough</option>
+                <option value="pain">Pain</option>
+            </select>
+        Price <input type="text" value="${data.price}" readonly>
+        <input type="submit" onclick="finalupdate('${data.id}')">
+     
+     `
+
+     document.querySelector("#updateshow").innerHTML=formdata
+
+
+
+ }
+
+
+ let finalupdate=(id)=>{
+
+    let updatename=document.querySelector("#updatename").value;
+    let updateage=document.querySelector("#updateage").value;
+    let updatenum=document.querySelector("#updatenum").value;
+    let updatedate=document.querySelector("#updatedate").value;
+    let updateprob=document.querySelector("#updateprob").value;
+    // let updateprice=document.querySelector("#updateprice").value;
+
+
+    
+try{
+    let url=http://localhost:3000/doctor/${id}
+      fetch(url,
+        {method:"PUT",
+         
+        headers:{
+            "Content-Type":"application/json",
+        },
+
+        body:JSON.stringify(
+            {
+                "name":updatename,
+                "age":updateage,
+                "number":updatenum,
+                "date":updatedate,
+                "problem":updateprob,
+                "price":250
+
+            }
+        )
+        })
+        
+    }
+    catch(error){
+        console.log(error);
+        
+    }
+
+
+
+
+ }
+
+
+
+
+VANTA.WAVES({
+    el: "#wave",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00
+  })
