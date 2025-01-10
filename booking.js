@@ -92,7 +92,7 @@ let fetchData=  async ()=>{
   
     })
 
-   // location.href="booking.html"
+    location.href="booking.html"
 
   return false;
   
@@ -203,3 +203,18 @@ try{
 }
 
 
+VANTA.CLOUDS({
+  el: "#book-tablee",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  skyColor: 0x14d9d9,
+  cloudColor: 0xafc0d7,
+  cloudShadowColor: 0xe2a43,
+  sunColor: 0xff920a,
+  sunGlareColor: 0xdc5a2e,
+  sunlightColor: 0xfff230,
+  speed: 2.00
+})
