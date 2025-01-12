@@ -72,4 +72,3 @@ addcart=()=>{
 
 //<!--====================  add to cart  work end from here   ===================== -->
 
-

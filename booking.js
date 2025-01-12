@@ -119,7 +119,7 @@ let fetchData=  async ()=>{
 
             <div class="book-div1" style="background-color: red;">
 
-                  <h2>UPDATE YOUR FORM</h2>
+                  <h2 style="margin-left:0px; font-size:30px; color:blue;">UPDATE YOUR FORM</h2>
 
                  <h4>UPDATE PICK-UP LOCATION</h4>
                  <input type="text" id="update-pick-loc">
@@ -138,25 +138,18 @@ let fetchData=  async ()=>{
 
                  
                  <h4>UPDATE PIC-UP TIME</h4>
-                 <input type="time" id="update-pic-time">
+                 <input type="time" id="update-pic-time"> <br>
 
-      <input type="submit" onclick="finalupdate('${data.id}')">
 
+      <input type="submit" onclick="finalupdate('${data.id}')" style="width: 130px; height: auto; background-color: blue;margin-left: 90px; ">
 
                 </form>
-
-        
-
-           
         </div>
     </section>
    
    `
 
    document.querySelector("#updateshow").innerHTML=formdata
-
-
-
 }
 
   // ===================================Update fill form====================================

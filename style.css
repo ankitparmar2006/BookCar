@@ -226,7 +226,7 @@ margin-left: 180px;
 
 #book-tablee {
 width: 100%;
-height: auto;
+height: 950px;
 }
  
 #book-table h2 {
@@ -890,6 +890,8 @@ color: #999999;
       color: #ccc;
         display: block;
         left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
       }
       #bar-ss:checked~#navbar nav ul {
     display: block;
@@ -900,10 +902,11 @@ color: #999999;
        } 
 
        #navbar {
-        width: 88%;
+        width: 100%;
         }
-
+/* ================================================= */
         #home img {
+          margin-top: 60px;
           width: 90%;
         
           }
@@ -913,7 +916,9 @@ color: #999999;
           }
 
           #booking {
-            width: 78%;
+            width: 100%;
+         margin-top: -470px;
+
           }
 
           #home .home-text {
@@ -943,7 +948,8 @@ color: #999999;
 
             #footer {
               font-size: 4px;
-              width: 89%;
+              width: 100%;
+              margin-top: -200px;
             }
 
             #footer .footer-div i {
@@ -956,7 +962,7 @@ color: #999999;
 
  
 #about .about-main .about-div1 img{
-width: 50%;
+width: 60%;
 margin-left: 0px;
 }
 
@@ -966,18 +972,18 @@ margin-left: 0px;
 
 #about .about-main .about-div2 {
 
-  width: 390px;
-margin-left: 0px;
+  width: 100%;
+  margin-left: 0px;
 
 }
 
 
 #about .about-main .about-div2 h1 {
-margin-left: 80px;
+margin-left: 60px;
 }
 
 #about .about-main .about-div2 h2 {
-  margin-left: 140px;
+  margin-left: 100px;
 
 }
 
@@ -986,57 +992,50 @@ gap: 2px;
 }
 
 #about .about-main .about-div2 .about-text .about-box1 {
-  width: 190px;
+  width: 160px;
   height: 100px;
   font-size: 13px;
 
 } 
 
 #about .about-main .about-div2 .about-text .about-box2 {
-  width: 190px;
+  width: 160px;
   height: 100px;
   font-size: 13px;
   }
 
 
   #about .about-main .about-div2 .about-text .about-box3 {
-    width: 190px;
-    height: 100px;
-    font-size: 13px;
+  display: none;
    }
  
 
     #about .about-main .about-div2 .about-text .about-box4 {
-      width: 190px;
-  height: 100px;
-  font-size: 13px;
+      display: none;
+
       }
     
       #about .about-main .about-div2 .about-text .about-box5 {
-        width: 190px;
-  height: 100px;
-  font-size: 13px;
+        display: none;
+
         }
     
 
         #about .about-main .about-div2 .about-text .about-box6 {
-          width: 190px;
-  height: 100px;
-  font-size: 13px;
+          display: none;
+
           }
     
 
           #about .about-main .about-div2 .about-text .about-box7 {
-            width: 190px;
-            height: 100px;
-            font-size: 13px;
+            display: none;
+
             }
         
 
             #about .about-main .about-div2 .about-text .about-box8 {
-              width: 190px;
-  height: 100px;
-  font-size: 13px;
+              display: none;
+
            
 }
                            
@@ -1102,11 +1101,47 @@ font-size: 10px;
     
     /* <!--====================  service cording end from here   ===================== --> */
 
+  /* // ===============================offer responsive work start from here===================================== */
+  /* //this is my booking  cording responsive */
 
+  #book-table {
+  font-size: 4px;
+  margin-left: 0px;
+}
+#book-table h2 {
+  font-size: 24px;
+  margin-left: 20px;
+
+}
+/* //this is my booking  cording responsive */
+    /* // ===============================offer responsive work start from here===================================== */
+#offer h3 {
+  margin-left: 0px;
+  font-size: 10px;
+}
+#offer p {
+  margin-left: 0px;
+  font-size: 10px;
+}
+#offer button {
+  margin-left: 0px;
+  font-size: 10px;
+  width: 60px;
+}
     
+/* #about {
+  display: none;
+} */
+/* #booking {
+  display: none;
+} */
+.home-text h3{
+display: none;
+}
 /* <!--====================  login cording start from here   ===================== --> */
 #login {
 width: 390px;
+height: 800px;
 }
 
 .login-form{
@@ -1133,6 +1168,7 @@ width: 390px;
 
 #profile {
   width: 88%;
+  height: 800px;
 }
 
 #profile .profile-inf {  
